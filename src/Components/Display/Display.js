@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function Display() {
+export default function Display(props) {
   return (
-    <input type="number"/>
+    <div className='Display'>
+      <p>{props.previous}</p>
+      <p>{props.atual}</p>
+    </div>
   )
 }
