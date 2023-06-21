@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Display(props) {
+const Display = (props) => {
   return (
     <div className='Display'>
       <p>{props.previous}</p>
@@ -8,3 +8,5 @@ export default function Display(props) {
     </div>
   )
 }
+
+export default Display
